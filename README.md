@@ -145,11 +145,19 @@ Lil bugger, shut up and stop stalling, idiot! Also, while <p+number> works, it i
       
   <h2>Markup</h2>
   <p>Another level of organization here. The 'head' and 'body' element. There's also metadata elements and stuff. "Metadata elements, such as link, meta, title, and style, typically go inside the head element."</p>
-
     
 <main>
 
+  <h1>BASIC CSS</h1>
 
+  <h2>Text Color</h2>
+  <p>Finally, we are here. CSS. Time to turn my Ao3 text cyan. For this, you need the style attribute or smth. style="color: blue;" Like that. Stick it in the first tag of an element. And remember to end it with a ';' Oh and like, you need to set a color for 'blue' I believe.<br><br> That is one way to change text color. But you can do it another way, by setting up a style block/element. This is a quick way to change all of one element at once. the 'color: blank' is considered a style rule. You need curly brackets around the style rule. DO NOT FORGET THE SEMICOLON. Do this at the top of the code.
+    
+    <style>
+      h2 {
+        color: red;
+      }
+    </style>
 
 </html>
 
