@@ -104,6 +104,19 @@ Lil bugger, shut up and stop stalling, idiot! Also, while <p+number> works, it i
     <label for="no"><input id="no" type="radio" name="yesno"></label>
   </form>
     
+  <p>To be honest, I actually have no idea how it works. So don't like...actually use this info...</p>
+    
+  <h2>Checkboxes</h2>
+    
+  <p>So much input types! How do I remember them all. It's not like programming is a test. You can search thing's up. Anyway, checkboxes. Questions with 1+ answers? Here's your solution! Each checkbox(input) goes between a label element.It will automatically associate the input with the label element. If the inputs are all related, they should have the same name! To make life easier, the 'for' attribute in the label element should match the 'id' of the input element. This is basically the same as before. Change the type to 'checkbox'.
+    
+  <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+    <button type=submit>[Submit]</button>
+    <label for="Patriot"><input id="Patriot" type="checkbox" name="akboss"></label>
+    <label for="Frostnova"><input id="Frostnova" type="checkbox" name="akboss"></label>
+    <label for="Talulah"><input id="Talulah" type="checkbox" name="akboss"></label
+  </form>
+  
 <main>
 
 
