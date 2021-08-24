@@ -32,7 +32,9 @@ Lil bugger, shut up and stop stalling, idiot! Also, while <p+number> works, it i
   <a href="https://gamepress.gg/arknights/operator/matoimaru/" target="_blank" rel="noopener noreferrer"> Matoimaru's Gamepress page, in another tab.</a>
   
   <p> Yeah i know it doesnt work, ill fix it later. You can actually dump link elements into text elements. Like this <a href="#insult-two">anchor<a> This is, uh, anchor text? Anyway, for anchor elements with dead links. you set the href to #. href="#". You now have an anchor, placeholder, that doesnt work! Like this <a href="#">[one]</a> Let's go to another attribute. 'rel' is also put in the first bracket, after the target, I believe. rel stands for relationship! It sets the relationship between your page and the link. Setting it to 'noopener norefferer' stops tabnabbing, apparently. </p>
-  
+  <p>You wanna know how to turn a photo into a link? Look a bit further, after this sentence. First you dump your image(code and all) between an anchor element, between the 2 sets of brackets. Remember, sticking '#' for the href makes it a dead link! Remember to add an alt</p>
+    
+  <a href="https://gamepress.gg/arknights/operator/matoimaru/" target="_blank" rel="noopener noreferrer"><img src="https://gamepress.gg/arknights/sites/arknights/files/2020-03/char_136_hsguma_nian%233.png" alt="fuckers stole my cat"></a>
   
   
   
