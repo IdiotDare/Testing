@@ -63,8 +63,46 @@ Lil bugger, shut up and stop stalling, idiot! Also, while <p+number> works, it i
     <li>Frostnova</li>
   </ol>
     
-  
+  <h2>Text Fields</h2>  
 
+  <p> The 'input' element is aa way to get....input. Just like img elements, the input element is self closing. There are also input types. the input element is like, >input type="blank"<. In this case, the type is text.</p>
+    
+  <input type="text">
+    
+  <p> An input placeholder is what you see when nothing has been typed yet. I believe it's an attribute. You put it after the type. placeholder="blank". Yes, I know, the input element is 95% likely not working. Whatever!</p>
+    
+  <input type="text" placeholder="Life is a placeholder for hell.">
+    
+  <p>You actually need a place for the input to end up in. Probably why it's failing to show up. The form element exists to help. It is not self closing. Give the form element an 'action; attribute. action="where-you-want-the-stuff-to-go". You stick the input element between this form element. Too bad I don't have a server.</p>
+    
+  <form action="#">
+    <input type="text" placeholder="help call 911">
+  </form>
+     
+  
+  <p>On the other hand, we need a submit button. How else are you gonna get that nice nice input? Anyway, create a button element...useing 'button'. It is not self closing. Anyway, within the first bracket, specify a type attribute. In this case, 'submit'. type="submit" Between the tags themselves, you type what you want to button to say.</p>
+    
+  <form action="#">
+    <input type="text" placeholder="SOS">
+    <button type="submit">[Confirm I'm an idiot.]</button>
+  </form>
+    
+  <p>You know how annoying it is when a form requires you to fill something out or you can't move on? Yup, lets learn how to do that! It's very easy. Just add on the 'required' attribute to your input element. Dont ask whether it comes before or after the placeholder. Idk.</p>
+    
+  <form action="#">
+    <input type="text" placeholder="Hell" required><!-- It comes after the placeholder I think -->
+    <button type="submit">[help]</button>
+  </form>
+    
+  <h2>Radio Buttons!</h2>
+    
+  <p>Radio buttons! The confusion of life! Nah, its basiclaly just giving multiple choice options. Don't worry. Radio buttons are a 'type' of input. radio buttions are also annoying help. Anyway. You stick this input element between label elements. Nope, not self closing. Give the a 'for=' attribute(for the label). What do you want the option to say? Thats what the 'for' is for(not really, it just makes life easier). Do not shut the label element yet. You still need to add the input element! Give the input element an id attribute,(same as the 'for'attribute). Then set the input type to radio. Then add in the 'name' attribute, and name it. You may close the input tag now. Before you close this label element, remember to actually give it a label. This is now one button! Repeat for more options. Then you can close the form element. The name attribute ensures that they are in the same radio group.
+   
+  <form action="#">
+    <button type=submit>[Heck]</button>
+    <label for="yes"><input id="yes" type="radio" name="yesno"></label>
+    <label for="no"><input id="no" type="radio" name="yesno"></label>
+  </form>
     
 <main>
 
