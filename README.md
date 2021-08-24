@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 # Testing
 <html>
-
-  <h2>Just testing</h2>
+ <head>
+   
+  </head>  
+   <h2>Just testing</h2>
   <p>Darewolves, dont back out now!</p>
 
 
@@ -10,17 +12,20 @@
 
   <p id="insult-two">You idiot!</p>
   <a href="#wp-anchor"> Sends to you the paragraph about webpage anchors</a>
-<!--
+  
+   <!--
 Lil bugger, shut up and stop stalling, idiot! Also, while <p+number> works, it is not needed, i believe.
 -->
+  <body>
   <main>
     <p>Darewolves is a certified idiot</p>
     <p>But as much as an idiot as you are, you aren't that stupid, are you?</p>
   
   <h2>Img Element</h2>
-  
-    <p> Img elements are self closing. This means that they do not need a < /img > at the end, as the image code/src is part of the first <>, starting from < img src=> </p>
-    <p>The link slash source will be in " " and after the =. The alt element is like this too. For example, alt="insert" and comes after the sourse. The alt is like a caption, basicaly shows if the picture doesnt load. You can leave it empty if the image isnt important, as it's like a caption, the have the person know what the picture is of. </p>
+    
+  <p>Img elements are self closing. This means that they do not need a < /img > at the end, as the image code/src is part of the first <>, starting from < img src=> </p>
+    
+   <p>The link slash source will be in " " and after the =. The alt element is like this too. For example, alt="insert" and comes after the sourse. The alt is like a caption, basicaly shows if the picture doesnt load. You can leave it empty if the image isnt important, as it's like a caption, the have the person know what the picture is of.</p>
   
   <img src="https://gamepress.gg/arknights/sites/arknights/files/2020-03/char_136_hsguma_nian%233.png" alt="Hoshiguma Patrolling Ronin skin">
   
@@ -151,7 +156,7 @@ Lil bugger, shut up and stop stalling, idiot! Also, while <p+number> works, it i
   <h1>BASIC CSS</h1>
 
   <h2>Text Color</h2>
-  <p>Finally, we are here. CSS. Time to turn my Ao3 text cyan. For this, you need the style attribute or smth. style="color: blue;" Like that. Stick it in the first tag of an element. And remember to end it with a ';' Oh and like, you need to set a color for 'blue' I believe.<br><br> That is one way to change text color. But you can do it another way, by setting up a style block/element. This is a quick way to change all of one element at once. the 'color: blank' is considered a style rule. You need curly brackets around the style rule. DO NOT FORGET THE SEMICOLON. Do this at the top of the code.
+  <p>Finally, we are here. CSS. Time to turn my Ao3 text cyan. For this, you need the style attribute or smth. style="color: blue;" Like that. Stick it in the first tag of an element. And remember to end it with a ';' Oh and like, you need to set a color for 'blue' I believe.<br><br> That is one way to change text color. But you can do it another way, by setting up a style block/element. This is a quick way to change all of one element at once. the 'color: blank' is considered a style rule. You need curly brackets around the style rule. DO NOT FORGET THE SEMICOLON. Do this at the top of the code. UNFORTUNATELY I HAVE NO IDEA HOW TO MAKE THIS WORK.
     
     <style>
       h2 {
@@ -159,6 +164,8 @@ Lil bugger, shut up and stop stalling, idiot! Also, while <p+number> works, it i
       }
     </style>
 
+    
+  </body>  
 </html>
 
 
