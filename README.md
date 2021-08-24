@@ -1,23 +1,26 @@
+<!DOCTYPE html>
 # Testing
-<h2>Just testing</h2>
-<p>Darewolves, dont back out now!</p>
+<html>
+
+  <h2>Just testing</h2>
+  <p>Darewolves, dont back out now!</p>
 
 
-<p>You dumb fucking darewolves!</p>
+  <p>You dumb fucking darewolves!</p>
 
-<p id="insult-two">You idiot!</p>
-<a href="#wp-anchor"> Sends to you the paragraph about webpage anchors</a>
+  <p id="insult-two">You idiot!</p>
+  <a href="#wp-anchor"> Sends to you the paragraph about webpage anchors</a>
 <!--
 Lil bugger, shut up and stop stalling, idiot! Also, while <p+number> works, it is not needed, i believe.
 -->
-<main>
-  <p>Darewolves is a certified idiot</p>
-  <p>But as much as an idiot as you are, you aren't that stupid, are you?</p>
+  <main>
+    <p>Darewolves is a certified idiot</p>
+    <p>But as much as an idiot as you are, you aren't that stupid, are you?</p>
   
-  <h3>Img Element</h3>
+  <h2>Img Element</h2>
   
-  <p> Img elements are self closing. This means that they do not need a < /img > at the end, as the image code/src is part of the first <>, starting from < img src=> </p>
-  <p>The link slash source will be in " " and after the =. The alt element is like this too. For example, alt="insert" and comes after the sourse. The alt is like a caption, basicaly shows if the picture doesnt load. You can leave it empty if the image isnt important, as it's like a caption, the have the person know what the picture is of. </p>
+    <p> Img elements are self closing. This means that they do not need a < /img > at the end, as the image code/src is part of the first <>, starting from < img src=> </p>
+    <p>The link slash source will be in " " and after the =. The alt element is like this too. For example, alt="insert" and comes after the sourse. The alt is like a caption, basicaly shows if the picture doesnt load. You can leave it empty if the image isnt important, as it's like a caption, the have the person know what the picture is of. </p>
   
   <img src="https://gamepress.gg/arknights/sites/arknights/files/2020-03/char_136_hsguma_nian%233.png" alt="Hoshiguma Patrolling Ronin skin">
   
@@ -110,18 +113,45 @@ Lil bugger, shut up and stop stalling, idiot! Also, while <p+number> works, it i
     
   <p>So much input types! How do I remember them all. It's not like programming is a test. You can search thing's up. Anyway, checkboxes. Questions with 1+ answers? Here's your solution! Each checkbox(input) goes between a label element.It will automatically associate the input with the label element. If the inputs are all related, they should have the same name! To make life easier, the 'for' attribute in the label element should match the 'id' of the input element. This is basically the same as before. Change the type to 'checkbox'.
     
-  <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+  <form action="#">
     <button type=submit>[Submit]</button>
     <label for="Patriot"><input id="Patriot" type="checkbox" name="akboss"></label>
     <label for="Frostnova"><input id="Frostnova" type="checkbox" name="akboss"></label>
     <label for="Talulah"><input id="Talulah" type="checkbox" name="akboss"></label
   </form>
   
+  <p>Time for the value attribute. BY THE WAY THIS IS JUST ME TAKING NOTES FROM FREECODECAMP! I recommend you look at this lesson actually since, values. <a href="https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/use-the-value-attribute-with-radio-buttons-and-checkboxes">link.</a> Anyway, radio and checkbox input types submit the answers/value from the value attribute. Lets's just copy paste the text from freecodecamp here.</p>
+      
+  <p>"Here, you have two radio inputs. When the user submits the form with the indoor option selected, the form data will include the line: indoor-outdoor=indoor. This is from the name and value attributes of the "indoor" input."</p>
+      
+  <p>You stick this 'value' attribute in the input element, after the id.<br><!--br is the break lines option--> The value option identifies the option.</p>
+      
+  <form action="#">
+    <button type=submit>[Submit]</button>
+    <label for="patriot"><input id="patriot" value="patriot" type="checkbox" name="akboss">Patriot</label>
+    <label for="frostnova"><input id="frostnova" value="frostnova" type="checkbox" name="akboss">Frostnova</label>
+    <label for="talulah"><input id="talulah" value="talulah" type="checkbox" name="akboss">Talulah</label
+  </form>
+
+  <p>Okay, but like, what if you want to force an option onto someone? That is also possible! Remember the 'required' attribute. It will be used the same way. Instead of required thought, it's 'checked'. You stick it in the input element.
+    
+  <h2>Div Element</h2>
+
+  <p>Want to make things neater? Yes. I do. This mess of words is killing my eyes. This is not a self closing element. 'div' and '/div'.</p>
+      
+  <h2>Doctype Time!</h2>  
+  <p>At the top of the document, you need to specify the doctype! In this case, HTML and HTML5. You can use 'html' though. !DOCTYPE blank. The blank is the doctype, in this case, 'html. So !DOCTYPE html. However, this is not the end. You need to stick your entire chunk of html code between 'html' elements. Do it now.</p>
+      
+      
+  <h2>Markup</h2>
+  <p>Another level of organization here. The 'head' and 'body' element. There's also metadata elements and stuff. "Metadata elements, such as link, meta, title, and style, typically go inside the head element."</p>
+
+    
 <main>
 
 
 
-
+</html>
 
 
 
