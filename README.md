@@ -163,8 +163,19 @@ Lil bugger, shut up and stop stalling, idiot! Also, while <p+number> works, it i
         color: red;
       }
     </style>
-
+<p>Fun, isn't it? Anyway, but what if, you don't want all the h2 elements to be red? And you want some others to be red too? You create your own class! Then instead of using the style attribute, you can use the class attribute with the class name. To create a class, you replace the block of code above, the part where you stick the element with a class name. It will start with a period, but when using it, you do not need the period.</p>
+ 
+  <style>
+   .frost {
+    color: #ooFFFF
+   }
+  </style>
+ 
+ <p>Just like that! To use it, refer to the example below.</p>
     
+ <h2 class=.frost>HELP</h2>
+ 
+ 
   </body>  
 </html>
 
