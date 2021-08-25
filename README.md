@@ -165,16 +165,39 @@ Lil bugger, shut up and stop stalling, idiot! Also, while <p+number> works, it i
     </style>
 <p>Fun, isn't it? Anyway, but what if, you don't want all the h2 elements to be red? And you want some others to be red too? You create your own class! Then instead of using the style attribute, you can use the class attribute with the class name. To create a class, you replace the block of code above, the part where you stick the element with a class name. It will start with a period, but when using it, you do not need the period.</p>
  
-  <style>
+ <!--
+ <style>
    .frost {
-    color: #ooFFFF
+    color: #ooFFFF;
    }
   </style>
- 
+  -->
  <p>Just like that! To use it, refer to the example below.</p>
     
- <h2 class=.frost>HELP</h2>
+ <h2 class=".frost">HELP</h2>
  
+ <p>Font size time. You still use the style tags, and can even use the same set...cuz thats how it works? It works the same way as the color tag, but instead of it being 'color:', it is instead 'font-size: '. Measured in px. like, 16px.</p>
+ 
+ <style>
+  .frost {
+   color: #00FFF;
+  }
+  p {
+  color: blue;
+  }
+  h2 {
+   font-size: 500px;
+  }
+ </style>
+  
+ <p>See a pattern? 'color', 'font-size'. Next is 'font-family'. font-family: insertfont;. Thats how you change a font. Tomorrow we learn how to import a font from google fonts.</p>
+ 
+ <style>
+  p {
+  font-family: serif;
+  }
+ </style>
+  
  
   </body>  
 </html>
